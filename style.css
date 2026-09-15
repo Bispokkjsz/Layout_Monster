@@ -5,7 +5,43 @@
 }
 body{
     flex-direction: column;
-    display: flex;
-    background-color: white;
+    display: flex;   
     height: 100vh;
 }
+.header{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo{
+    margin-left: -15px;
+    margin-top: 10px;
+}
+.language{
+    margin-left: 130px;
+}
+
+.center{
+    background-color: purple;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.monster{
+    width: 134px;
+    height: 336px;
+    margin-top: 116px;
+    margin-left: 170px;
+}
+
+
+.footer{
+    height: 63px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
