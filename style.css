@@ -3,3 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
