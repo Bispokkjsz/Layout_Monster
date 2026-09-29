@@ -3,45 +3,44 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     flex-direction: column;
     display: flex;   
-    height: 100vh;
+    height: 568px;
+    width: 320px;
+    background-color: black;
 }
 .header{
-    background-color: black;
-    align-items: center;
-    justify-content: center;
     display: flex;
+    height: 48px;
+    width: 288px;
+    margin-top: 16px;
+    margin-left: 16px;
+    justify-content: space-between;
+    
 }
 .logo{
-    margin-left: -15px;
+    height: 48px;
+    width: 106.05px;
+    margin-left: 1px;
     margin-top: 10px;
 }
 .language{
-    margin-left: 130px;
+    width: 106px;
+    height: 34px;
+    margin-top: 10px;;    
+    margin-right: -55px;
 }
-
 .center{
-    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
-.monster{
-    width: 134px;
-    height: 336px;
-    margin-top: 116px;
-    margin-left: 170px;
+.megaMonster{
+   height: 120px;
+   width: 161px;
+   margin-left: -100px;
 }
-
-
-.footer{
-    height: 63px;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
