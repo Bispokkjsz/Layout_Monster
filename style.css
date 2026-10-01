@@ -42,5 +42,40 @@ body{
 .megaMonster{
    height: 120px;
    width: 161px;
-   margin-left: -100px;
+   margin-left: 1px;
+}
+.saborMonster{
+    width: 157px;
+    height: 60px;
+    margin-top: 30px;
+}
+.textos{
+    margin-left: 70px;
+}
+.monsterPNG{
+    height: 370px;
+    margin-left: 5px;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    
+    
+}
+.setas{
+    display: flex;
+    transform: translateX(50%);
+    gap: 150px;
+}
+.seta1{
+    display: flex;
+    transform: translateX(-500%);
+    transition: 2s;
+}
+seta1:hover{
+    background-color: greenyellow;
+    transform: scale(1.1)
 }
