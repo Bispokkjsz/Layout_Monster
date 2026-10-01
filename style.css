@@ -75,6 +75,9 @@ body{
     transform: translateX(-500%);
     transition: 2s;
 }
+@media (min-width: 768px) {
+    
+}
 seta1:hover{
     background-color: greenyellow;
     transform: scale(1.1)
